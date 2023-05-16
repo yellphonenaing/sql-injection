@@ -8,7 +8,7 @@
 - Injections And Bypass Process
 - Dump Database
 
-## SQL Error Huntiing Types
+## SQL Error Hunting Types
 - String Based
 - Integer Based
 
