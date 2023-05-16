@@ -8,7 +8,11 @@
 - Injections And Bypass Process
 - Dump Database
 
-# Types Of SQL Injection Attacks
+## SQL Error Huntiing Types
+- String Based
+- Integer Based
+
+## Types Of SQL Injection Attacks
 - Union Based SQL Injection Attacks
 - Error Based Injection Attacks
 - Blind SQL Injections (Bollean Based And Time Based)
