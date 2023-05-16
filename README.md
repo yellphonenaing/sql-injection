@@ -6,7 +6,7 @@
 - Hunting SQL Errors
 - Identify Attack Types
 - Injections And Bypass Process
-- Dump Database
+- Dump Data
 
 ## SQL Error Hunting Types
 - String Based
@@ -23,3 +23,8 @@
 
 ## General Process:
 - Find Column Count
+- Using UNION Operator To Add Malicious Statement
+- Gather Database And DBMS Informations
+- Finding Tables
+- Finding Columns Of Table Or Tables
+- Dump Data
