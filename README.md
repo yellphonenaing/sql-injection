@@ -28,6 +28,8 @@ Oracle SQL
 > Web Protocols
 ![Web Architecture](https://static.javatpoint.com/tutorial/computer-network/images/http-vs-https.png "Protocols")
 
+##
+
 > URL(Uniform Resource Locator) Structure
 ![Web Architecture](https://static.semrush.com/blog/uploads/media/fa/fe/fafe931ac85fc1c5b628299e399a2870/yqyhmdwqsDzxONy4U6FyLwK_LN_hl36xIGyfon2xWiopIuhrhR4w08c-NbWe2EnJXUh0RWDOCtMrlVNhqlBVmWRjKI3freLX4X_1Ugk7_9FwqgquwBsNqfaOnJZQ6xJJnGRKowrKhSBr_xVQZGI6gCg.png "URL")
 
