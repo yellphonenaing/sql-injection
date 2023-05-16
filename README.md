@@ -18,3 +18,8 @@
 - Blind SQL Injections (Bollean Based And Time Based)
 
 ![SQL Injection](https://media.geeksforgeeks.org/wp-content/uploads/20220716180638/types.PNG)
+
+# Union Based SQL Injection
+
+## General Process:
+- Find Column Count
