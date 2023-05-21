@@ -54,7 +54,7 @@ Oracle SQL
 - Integer Based
 
 ## Types Of SQL Injection Attacks
-- Authentication Bypass
+- Authentication && Authorization Bypass
 - Union Based SQL Injection Attacks
 - Error Based Injection Attacks
 - Blind SQL Injections (Bollean Based And Time Based)
