@@ -62,9 +62,19 @@ Oracle SQL
 ![SQL Injection](https://media.geeksforgeeks.org/wp-content/uploads/20220716180638/types.PNG)
 
 
-## Authentication Bypass
+## Authentication && Authorization Bypass
 
 ![Autentication Authorization](https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2020-10/Authentication_vs_Authorization.png?itok=uBFRCfww)
+
+## General Process:
+- Understanding SQL syntax
+- Understanding SQL Boolean
+- Understanding SQL limit
+- understanding SQL comment
+- Try to bypass
+
+
+##
 
 # Union Based SQL Injection
 
