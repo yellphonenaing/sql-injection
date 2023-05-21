@@ -61,10 +61,10 @@ Oracle SQL
 
 ![SQL Injection](https://media.geeksforgeeks.org/wp-content/uploads/20220716180638/types.PNG)
 
-#Authentication Bypass
+
+## Authentication Bypass
 
 ![Autentication Authorization](https://www.okta.com/sites/default/files/styles/1640w_scaled/public/media/image/2020-10/Authentication_vs_Authorization.png?itok=uBFRCfww)
-
 
 # Union Based SQL Injection
 
